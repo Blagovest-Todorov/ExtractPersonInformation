@@ -9,9 +9,6 @@ namespace ExtractPersonInformation
         {
             int nLines = int.Parse(Console.ReadLine());
 
-            
-            
-
             for (int i = 0; i < nLines; i++)
             {
                 string text = Console.ReadLine();
@@ -37,8 +34,7 @@ namespace ExtractPersonInformation
                     }
                 }
 
-                Console.WriteLine($"{sbName} is {sbAge} years old.");
-                
+                Console.WriteLine($"{sbName} is {sbAge} years old.");                
             }
         }
     }
